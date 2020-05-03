@@ -1,14 +1,14 @@
-# \InformationApi
+# \InformationAPI
 
 All URIs are relative to *https://api.appbrain.com/v2*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**BrowseApps**](InformationApi.md#BrowseApps) | **Get** /info/browse | Apps information
-[**GetApp**](InformationApi.md#GetApp) | **Get** /info/getapp | App information
-[**GetCountries**](InformationApi.md#GetCountries) | **Get** /info/getcountries | Countries information
-[**GetLibraries**](InformationApi.md#GetLibraries) | **Get** /info/getlibraries | Libraries information
-[**SearchApps**](InformationApi.md#SearchApps) | **Get** /info/search | Apps information
+[**BrowseApps**](InformationAPI.md#BrowseApps) | **Get** /info/browse | Apps information
+[**GetApp**](InformationAPI.md#GetApp) | **Get** /info/getapp | App information
+[**GetCountries**](InformationAPI.md#GetCountries) | **Get** /info/getcountries | Countries information
+[**GetLibraries**](InformationAPI.md#GetLibraries) | **Get** /info/getlibraries | Libraries information
+[**SearchApps**](InformationAPI.md#SearchApps) | **Get** /info/search | Apps information
 
 
 # **BrowseApps**
@@ -22,10 +22,10 @@ Returns a list of apps and everything about those apps. More information about u
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
- **optional** | ***InformationApiBrowseAppsOpts** | optional parameters | nil if no parameters
+ **optional** | ***InformationAPIBrowseAppsOpts** | optional parameters | nil if no parameters
 
 ### Optional Parameters
-Optional parameters are passed through a pointer to a InformationApiBrowseAppsOpts struct
+Optional parameters are passed through a pointer to a InformationAPIBrowseAppsOpts struct
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
@@ -137,10 +137,10 @@ Returns a list of apps and everything about those apps. More information about u
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
- **optional** | ***InformationApiSearchAppsOpts** | optional parameters | nil if no parameters
+ **optional** | ***InformationAPISearchAppsOpts** | optional parameters | nil if no parameters
 
 ### Optional Parameters
-Optional parameters are passed through a pointer to a InformationApiSearchAppsOpts struct
+Optional parameters are passed through a pointer to a InformationAPISearchAppsOpts struct
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------

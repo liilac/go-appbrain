@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Package_** | **string** | package | [optional] [default to null]
+**Pkg** | **string** | package | [optional] [default to null]
 **VersionString** | **string** | most recent version | [optional] [default to null]
 **VersionCode** | **int32** | most recent version code | [optional] [default to null]
 **Name** | **string** | name of the app | [optional] [default to null]
@@ -32,9 +32,9 @@ Name | Type | Description | Notes
 **Rating5StarCount** | **int32** | number of 5-star ratings | [optional] [default to null]
 **PlusOneCount** | **int32** | number of +1s | [optional] [default to null]
 **CommentCount** | **int32** | number of comments | [optional] [default to null]
-**IconUrl** | **string** | URL of the app&#39;s icon | [optional] [default to null]
-**FeatureGraphicUrl** | **string** | URL of the app&#39;s feature graphic | [optional] [default to null]
-**YoutubeUrl** | **string** | YouTube URL of the app&#39;s promo video | [optional] [default to null]
+**IconURL** | **string** | URL of the app&#39;s icon | [optional] [default to null]
+**FeatureGraphicURL** | **string** | URL of the app&#39;s feature graphic | [optional] [default to null]
+**YouTubeURL** | **string** | YouTube URL of the app&#39;s promo video | [optional] [default to null]
 **DeveloperName** | **string** | name of the developer of the app | [optional] [default to null]
 **DeveloperEmail** | **string** | email address of the developer | [optional] [default to null]
 **DeveloperAddress** | **string** | address of the developer | [optional] [default to null]

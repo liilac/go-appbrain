@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **DailyBudget** | **float64** | daily budget of the promotion campaign in dollars (a negative value indicates no budget limit) | [optional] [default to null]
 **RemainingBudget** | **float64** | total remaining budget the promotion campaign in dollars (a negative value indicates no budget limit) | [optional] [default to null]
 **InstallTracking** | **string** | attribution partner that is used for install tracking | [optional] [default to null]
-**ClickthroughUrl** | **string** | clickthrough URL of the promotion campaign | [optional] [default to null]
+**ClickThroughURL** | **string** | clickthrough URL of the promotion campaign | [optional] [default to null]
 **Countries** | [**[]Country**](Country.md) | list of settings for each country where the campaign is running; setting this list overwrites all country settings for the promotion campaign (can&#39;t be used simultaneously with updateCountries or removeCountries) | [optional] [default to null]
 **UpdateCountries** | [**[]Country**](Country.md) | updates the provided settings for the countries (can&#39;t be used simultaneously with countries) | [optional] [default to null]
 **RemoveCountries** | **[]string** | removes the provided countries from the promotion campaign (can&#39;t be used simultaneously with countries) | [optional] [default to null]

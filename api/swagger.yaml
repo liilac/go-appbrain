@@ -65,7 +65,7 @@ paths:
         description: "package"
         required: true
         type: "string"
-        x-exportParamName: "Package_"
+        x-exportParamName: "Pkg"
       responses:
         "200":
           description: "successful operation"

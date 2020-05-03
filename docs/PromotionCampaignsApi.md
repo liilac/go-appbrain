@@ -1,12 +1,12 @@
-# \PromotionCampaignsApi
+# \PromotionCampaignsAPI
 
 All URIs are relative to *https://api.appbrain.com/v2*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**Get**](PromotionCampaignsApi.md#Get) | **Get** /campaigns/get | Retrieves a promotion campaign
-[**List**](PromotionCampaignsApi.md#List) | **Get** /campaigns/list | Lists all promotion campaigns
-[**Update**](PromotionCampaignsApi.md#Update) | **Post** /campaigns/update | Creates or updates a promotion campaign
+[**Get**](PromotionCampaignsAPI.md#Get) | **Get** /campaigns/get | Retrieves a promotion campaign
+[**List**](PromotionCampaignsAPI.md#List) | **Get** /campaigns/list | Lists all promotion campaigns
+[**Update**](PromotionCampaignsAPI.md#Update) | **Post** /campaigns/update | Creates or updates a promotion campaign
 
 
 # **Get**
@@ -73,10 +73,10 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
   **body** | [**PromotionCampaignUpdates**](PromotionCampaignUpdates.md)| the properties of the campaign that must be updated | 
- **optional** | ***PromotionCampaignsApiUpdateOpts** | optional parameters | nil if no parameters
+ **optional** | ***PromotionCampaignsAPIUpdateOpts** | optional parameters | nil if no parameters
 
 ### Optional Parameters
-Optional parameters are passed through a pointer to a PromotionCampaignsApiUpdateOpts struct
+Optional parameters are passed through a pointer to a PromotionCampaignsAPIUpdateOpts struct
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
