@@ -13,7 +13,8 @@ The client was generated using [swagger-codegen](https://github.com/swagger-api/
 
 ## Installation
 `go get` the packace and import using the URL of this git repository
-````golang
+
+```golang
 import "github.com/liilac/go-appbrain"
 ```
 
