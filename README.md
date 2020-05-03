@@ -61,5 +61,5 @@ r, err := client.Service.Operation(auth, args)
 
 ## Author
 
-contact@appbrain.com
+Contact Lilac Kapul at lilac@enby.ninja
 
